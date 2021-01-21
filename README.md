@@ -32,7 +32,8 @@ For the similarity distance approach, the following constants (distance cutoff D
 import numpy as np
 
 def reliability_score(v, training_set, k, Dc):
-    '''Reliability score for a molecule given its descriptors
+    '''Reliability score for a molecule given its descriptors.
+    Based on Tropsha A, Gramatica P, & Gombar VK (2003) QSAR & Combinatorial Science 22:69-77
     
     Parameters
     ----------
@@ -40,10 +41,14 @@ def reliability_score(v, training_set, k, Dc):
         An array of descriptors of shape (N_descriptors, ) for a molecule
     training_set : np.ndarray
         An array of descriptors of shape (N_molecules, N_descriptors) for the full training set
+    k : int
+        Number of nearest neighbors used to calculate the average distance
+    Dc : float
+        Distance cutoff
     
     Notes
     -----
-    The array of descriptors should be normalized using the supplied MinMaxScaler
+    The arrays of descriptors should be normalized using the supplied MinMaxScaler
     '''
     # euclidean distances with training set
     distances = np.linalg.norm(v - training_set, axis=1)
