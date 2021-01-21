@@ -2,6 +2,10 @@
 
 Binary files and datasets for the SlitOR24-SlitOR25 paper.
 
+#### `supp data 2 SlitOR24+25_dataset.xlsx`
+
+List of training and test set compounds with their associated name, CAS, SMILES, and activity.
+
 #### `descriptors_list_*.csv`
 
 CSV file containing the list of Dragon (v6.0.38) descriptors used by each model.
