@@ -32,7 +32,7 @@ For the similarity distance approach, the following constants (distance cutoff D
 import numpy as np
 
 def reliability_score(v, training_set, k, Dc):
-    '''Reliability score for a compound given its descriptors
+    '''Reliability score for a molecule given its descriptors
     
     Parameters
     ----------
@@ -49,6 +49,7 @@ def reliability_score(v, training_set, k, Dc):
     distances = np.linalg.norm(v - training_set, axis=1)
     # sort distances
     distances.sort()
-    # Average distance between compound i and its k-NN in train: avg_Di
+    # Average distance between the molecule and its k-NN in the training set
     D = distances[:k].sum() / k
+    # reliability score
     return 1 + (D - Dc) / Dc
