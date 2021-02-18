@@ -35,7 +35,7 @@ For the similarity distance approach, the following constants (distance cutoff D
   - OR24: `Dc = 6.742`, `k=6`
   - OR25: `Dc = 9.422`, `k=9`
   
-  To obtain the reliability score for a molecule, given an array of descriptors, you can use the following code:
+To obtain the reliability score for a molecule, given an array of descriptors, you can use the following code (implemented for Python v3.6.8 with numpy v1.16.1):
 ```python
 import numpy as np
 
