@@ -1,6 +1,14 @@
 # SlitOR_data
 
-Binary files and datasets for the SlitOR24-SlitOR25 paper.
+Binary files and datasets for the SlitOR24-SlitOR25 paper:
+
+> **Reverse chemical ecology in a moth: machine learning on odorant receptors identifies new behaviorally active agonists**  
+> *Gabriela Caballero-Vidal [1], Cédric Bouysset [2], Jérémy Gévar [1], Hayat Mbouzid [1], Céline Nara [1], Julie Delaroche [1], Jérôme Golebiowski [2,3], Nicolas Montagné [1], Sébastien Fiorucci [2], & Emmanuelle Jacquin-Joly [1]*  
+> [1] INRAE, Sorbonne Université, CNRS, IRD, UPEC, Université de Paris, Institute of Ecology and Environmental Sciences of Paris, Versailles, France  
+> [2] Université Côte d’Azur, CNRS, Institut de Chimie de Nice UMR7272, Nice, France  
+> [3] Department of Brain and Cognitive Sciences, Daegu Gyeongbuk Institute of Science and Technology, Daegu 711-873, South Korea
+
+## Description
 
 #### `supp data 2 SlitOR24+25_dataset.xlsx`
 
