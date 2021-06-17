@@ -29,6 +29,10 @@ Saved model from Weka (v3.8.2):
   - `weka.classifiers.lazy.IBk` for OR25
   - `weka.classifiers.trees.RandomForest` for OR24.
 
+#### `sphere-exclusion.py`
+
+Implementation of the sphere-exclusion algorithm. See the content of the file for the documentation.
+
 #### **Applicability Domain**
 
 For the similarity distance approach, the following constants (distance cutoff Dc and number of nearest-neighbors k) were used:
